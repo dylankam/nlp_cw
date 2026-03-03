@@ -21,7 +21,7 @@ To reproduce this project, the following official datasets must be placed in the
 Due to file size constraints, the primary `model.safetensors` file is hosted externally. 
 To run inference without retraining the model, you need to download the weights from the link below. You must then take this and all files in the /BestModel/ directory EXCEPT THE .ipynb file, and place them inside a directory named `/Model/` alongisde the .ipynb file before executing the evaluation cells.
 
-* **Download `model.safetensors` here:** [INSERT YOUR CLOUD STORAGE/ONEDRIVE/GOOGLE DRIVE LINK HERE]
+* **Download `model.safetensors` here:** [model.safetensors](https://drive.google.com/file/d/1kc3rUk30Uu7KxGY8UGAx2k6eWVNnsYVm/view?usp=drive_link)
 
 ## How to Reproduce the Model
 
