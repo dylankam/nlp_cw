@@ -5,7 +5,7 @@ This repository contains the code, model, and prediction files for the binary cl
 This project utilizes a pre-trained `RoBERTa` sequence classification model. To address the severe class imbalance in the dataset (9.5% positive instances), this approach utilizes a custom class-weighted Cross-Entropy loss function over the entire training dataset. This outperforms the standard baseline, which discards a large portion of the training data through random undersampling.
 
 ## Repository Structure
-* `/BestModel/` - Contains the final, trained RoBERTa model files and the main Jupyter Notebook (`.ipynb`) used for data processing and training.
+* `/BestModel/` - Contains the final, trained RoBERTa model files and the main Jupyter Notebook (`.ipynb`) used for data processing and training. To view the notebook file, you must download it rather than previewing it.
 * `dev.txt` - Line-by-line binary predictions (0 or 1) aligned with the official dev set.
 * `test.txt` - Line-by-line binary predictions (0 or 1) aligned with the official test set.
 * `README.md` - Reproduction instructions and documentation.
