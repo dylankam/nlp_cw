@@ -12,10 +12,10 @@ This project utilizes a pre-trained `RoBERTa` sequence classification model. To 
 
 ## Datasets
 To reproduce this project, the following official datasets must be placed in the root directory alongside the Jupyter Notebook. 
-* **Main Dataset:** `dontpatronizeme_pcl.tsv`
-* **Train Set IDs & Labels:** `train_semeval_parids-labels.csv`
-* **Dev Set IDs & Labels:** `dev_semeval_parids-labels.csv`
-* **Test Set:** `task4_test.tsv`
+* **Main Dataset:** [`dontpatronizeme_pcl.tsv`](https://github.com/CRLala/NLPLabs-2024/blob/main/Dont_Patronize_Me_Trainingset/dontpatronizeme_pcl.tsv)
+* **Train Set IDs & Labels:** [`train_semeval_parids-labels.csv`](https://github.com/Perez-AlmendrosC/dontpatronizeme/blob/master/semeval-2022/practice%20splits/train_semeval_parids-labels.csv)
+* **Dev Set IDs & Labels:** [`dev_semeval_parids-labels.csv`](https://github.com/Perez-AlmendrosC/dontpatronizeme/blob/master/semeval-2022/practice%20splits/dev_semeval_parids-labels.csv)
+* **Test Set:** [`task4_test.tsv`](https://github.com/Perez-AlmendrosC/dontpatronizeme/blob/master/semeval-2022/TEST/task4_test.tsv)
 
 ## Pre-trained Model Weights
 Due to file size constraints, the primary `model.safetensors` file is hosted externally. 
